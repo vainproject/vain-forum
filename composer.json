@@ -1,0 +1,25 @@
+{
+    "name": "vainproject/vain-forum",
+    "description": "This is a forum module for the vain platform.",
+    "license": "Apache-2.0",
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~5.0",
+        "orchestra/testbench": "^3.1.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Forum\\": "src/Forum/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\Forum\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
